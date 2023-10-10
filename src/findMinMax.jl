@@ -1,8 +1,8 @@
 
 function find_max(x::AbstractVector)
-    @assert all(!isnan,x)
+    @assert all(!isnan, x)
     currentmax = x[1]
-    for a = eachindex(x)
+    for a in eachindex(x)
         if x[a] > currentmax
             currentmax = x[a]
         end
@@ -11,6 +11,6 @@ function find_max(x::AbstractVector)
 end
 
 function find_mean(x::AbstractVector)
-    @assert all(!isnan,x)
-    return sum(x)./length(x)
+    @assert all(!isnan, x)
+    return sum(x) ./ length(x)
 end
