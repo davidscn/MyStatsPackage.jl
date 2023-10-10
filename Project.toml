@@ -1,0 +1,10 @@
+name = "MyStatsPackage"
+uuid = "09fb90b6-dd08-4ec7-ba0e-8c2fc649e5f3"
+authors = ["David Schneider <david.schneider@ipvs.uni-stuttgart.de>"]
+version = "0.1.0"
+
+[deps]
+ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
+
+[compat]
+ProgressMeter = "1"
