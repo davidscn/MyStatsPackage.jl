@@ -5,7 +5,7 @@ include("printContributor.jl")
 
 export printContributor
 
-include("src/PrintOwner.jl")
+include("PrintOwner.jl")
 
 export printOwner
 
