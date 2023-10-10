@@ -6,7 +6,6 @@ function rse_sum(a)
     return sum
 end
 
-
 function rse_mean(a)
     sum = rse_sum(a)
     return sum / length(a)
