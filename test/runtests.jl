@@ -2,6 +2,7 @@ using MyStatsPackage # here it is ok to use, don't put it in your "debug"-conven
 include("setup.jl")
 
 
-@testset "rse_tests" begin
+@testset "All" begin
+    include("findMinMax_tests.jl")
     include("rse_tests.jl")
 end

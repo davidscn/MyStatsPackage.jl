@@ -16,5 +16,5 @@ export find_max
 
 include("statistic_functions.jl")
 
-export rse_mean
+export rse_tstat
 end # module MyStatsPackage
